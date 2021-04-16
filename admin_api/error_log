@@ -1,0 +1,1001 @@
+[24-Jan-2019 23:46:59 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ritzcybe_actora'@'localhost' (using password: YES) in /home2/thesanams/public_html/admin_api/config.php on line 17
+[24-Jan-2019 23:46:59 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home2/thesanams/public_html/admin_api/admin_login.php on line 8
+[24-Jan-2019 23:46:59 Asia/Kolkata] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home2/thesanams/public_html/admin_api/admin_login.php on line 8
+[28-Jan-2019 01:58:09 Asia/Kolkata] PHP Warning:  move_uploaded_file(../images/doctor_image/1548620889avatar.png): failed to open stream: No such file or directory in /home2/thesanams/public_html/admin_api/doctor.php on line 99
+[28-Jan-2019 01:58:09 Asia/Kolkata] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php7Jzt5h' to '../images/doctor_image/1548620889avatar.png' in /home2/thesanams/public_html/admin_api/doctor.php on line 99
+[28-Jan-2019 01:59:23 Asia/Kolkata] PHP Warning:  move_uploaded_file(../images/doctor_image/1548620963avatar.png): failed to open stream: No such file or directory in /home2/thesanams/public_html/admin_api/doctor.php on line 99
+[28-Jan-2019 01:59:23 Asia/Kolkata] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpYy7w20' to '../images/doctor_image/1548620963avatar.png' in /home2/thesanams/public_html/admin_api/doctor.php on line 99
+[29-Jan-2019 12:19:01 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/thesanams/public_html/admin_api/doctor.php on line 126
+[29-Jan-2019 12:19:05 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/thesanams/public_html/admin_api/doctor.php on line 126
+[29-Jan-2019 12:20:00 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/thesanams/public_html/admin_api/doctor.php on line 126
+[29-Jan-2019 12:20:03 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/thesanams/public_html/admin_api/doctor.php on line 126
+[29-Jan-2019 12:35:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/thesanams/public_html/admin_api/doctor.php on line 126
+[24-Jul-2019 12:49:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE) in /home2/thesanams/public_html/admin_api/report.php on line 94
+[25-Jul-2019 22:52:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 22:52:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 22:54:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 22:55:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 22:59:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 23:10:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 23:33:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 23:34:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 23:35:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[25-Jul-2019 23:42:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 18:23:29 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 18:23:29 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 23:53:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 18:37:21 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 18:37:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:07:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 18:52:15 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 18:52:15 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:22:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 18:54:11 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 18:54:11 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:24:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:04:47 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:04:47 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:34:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:17:19 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:17:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:47:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:29:43 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:29:43 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:59:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:33:49 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:33:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:03:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:34:48 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:34:48 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:04:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:43:32 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:43:32 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:13:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 19:58:03 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 19:58:03 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:28:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 20:19:10 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 20:19:10 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:49:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[08-Aug-2019 20:22:21 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[08-Aug-2019 20:22:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 01:52:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[09-Aug-2019 00:08:04 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:08:04 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 05:38:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[09-Aug-2019 00:25:07 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 00:25:07 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 05:55:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[09-Aug-2019 10:49:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 10:49:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 16:19:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[09-Aug-2019 16:09:54 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 16:09:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[09-Aug-2019 21:39:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[10-Aug-2019 03:59:27 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[10-Aug-2019 03:59:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[10-Aug-2019 09:29:27 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[10-Aug-2019 10:57:41 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[10-Aug-2019 10:57:41 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[10-Aug-2019 16:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[15-Aug-2019 04:14:24 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[15-Aug-2019 04:14:24 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[15-Aug-2019 09:44:24 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[22-Aug-2019 22:43:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[22-Aug-2019 22:43:52 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[22-Aug-2019 23:33:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[30-Aug-2019 10:08:08 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[30-Aug-2019 15:38:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:19:05 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 09:49:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:21:24 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 09:51:24 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:52:06 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:22:06 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:54:10 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:24:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:54:39 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:24:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:55:14 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:25:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 04:56:53 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:03:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:33:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:03:47 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:33:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:16:44 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 10:46:44 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:37:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 11:07:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:40:14 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 11:10:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:41:28 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 11:11:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 05:42:08 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 11:12:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:15:26 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:45:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:16:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:46:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:17:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:47:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:18:04 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:48:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:18:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:48:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:18:28 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:48:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:18:48 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:48:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:19:06 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 12:49:06 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:32:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:02:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:36:47 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:06:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:52:58 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:22:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 07:57:22 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:27:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:09:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:39:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:10:25 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:40:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:11:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:41:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:12:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:42:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:13:10 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:43:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:14:33 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:44:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:14:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:44:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:20:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:50:27 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:21:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:51:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:22:02 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:52:02 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:23:39 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:53:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 08:23:59 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 13:53:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:09:04 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:39:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:12:17 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:42:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:12:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:42:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:12:58 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:42:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:17:46 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:47:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:19:02 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:49:02 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:23:16 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:53:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:23:55 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:53:55 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:24:49 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:54:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:25:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:55:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:27:43 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:57:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:27:47 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:57:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:28:03 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 17:58:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[19-Sep-2019 12:46:06 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[19-Sep-2019 18:16:06 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[03-Oct-2019 21:26:06 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 02:56:06 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 04:18:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 09:48:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 05:35:01 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 11:05:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 06:15:43 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 11:45:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 12:46:22 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 18:16:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 13:30:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 19:00:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 13:31:07 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 19:01:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 13:32:19 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 19:02:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/doctor.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[04-Oct-2019 13:34:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[04-Oct-2019 19:04:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home2/thesanams/public_html/admin_api/config.php:17
+Stack trace:
+#0 /home2/thesanams/public_html/admin_api/admin_login.php(2): include()
+#1 {main}
+  thrown in /home2/thesanams/public_html/admin_api/config.php on line 17
+[22-May-2020 06:31:08 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/2002): Resource temporarily unavailable in /home/ritzcybe/public_html/demo/health_app/admin_api/config.php on line 18
+[22-May-2020 06:31:08 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ritzcybe/public_html/demo/health_app/admin_api/admin_login.php on line 8
+[22-May-2020 06:31:08 Asia/Kolkata] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ritzcybe/public_html/demo/health_app/admin_api/admin_login.php on line 8

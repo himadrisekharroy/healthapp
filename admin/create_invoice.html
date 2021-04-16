@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Invice</title>
+</head>
+<body >
+	<div style="font-size: 30px; font-weight: bold; padding-top: 100px;width: 100%; text-align: center;">
+Creating Invoice... Please wait....<br/>
+ Do not refresh the page or click back button.
+</div>
+</body>
+<script src="assets/js/config.js"></script>
+   <!-- Load javascripts at bottom, this will reduce page load time -->
+   <script src="assets/js/jquery-1.8.3.min.js"></script>  
+<script type="text/javascript">
+	$(document).ready(function() {
+
+	var url = window.location.href;
+		var name ="invoice";
+		var value ="";
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+		var results = regex.exec(url);
+		if (!results) value = null;
+		else if (!results[2]) value = '';
+		else value = decodeURIComponent(results[2].replace(/\+/g, " "));
+
+	$.post( api_url + "/sd_invoice.php", 
+		{
+			func:"generate_pdf",
+			id:value
+		})
+		.done(function(data){			
+			//alert(data);
+			window.location.href = site_url+"invoices/invoice_"+value+".pdf";
+			data = JSON.parse(data);
+		});
+	})
+</script>
+    
+</html>

@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+   <meta charset="utf-8" />
+   <title> Vendor/ Merchant </title>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <meta content="" name="description" />
+   <meta content="" name="author" />
+   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="assets/css/metro.css" rel="stylesheet" />
+   <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+   <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+   <link href="assets/css/style.css" rel="stylesheet" />
+   <link href="assets/css/style_responsive.css" rel="stylesheet" />
+   <link href="assets/css/style_default.css" rel="stylesheet" id="style_color" />
+   <link rel="stylesheet" type="text/css" href="assets/gritter/css/jquery.gritter.css" />
+   <link rel="stylesheet" type="text/css" href="assets/uniform/css/uniform.default.css" />
+   <link rel="stylesheet" type="text/css" href="assets/chosen-bootstrap/chosen/chosen.css" />
+   <link rel="stylesheet" type="text/css" href="assets/clockface/css/clockface.css" />
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap-datepicker/css/datepicker.css" />
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap-timepicker/compiled/timepicker.css" />
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap-colorpicker/css/colorpicker.css" />
+   <link rel="stylesheet" href="assets/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" />
+   <link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css" />
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap-daterangepicker/daterangepicker.css" />
+   <link rel="stylesheet" type="text/css" href="assets/uniform/css/uniform.default.css" />
+   <link rel="shortcut icon" href="favicon.ico" />
+   
+    <script type="text/javascript" src="assets/js/check_session.js"></script>
+   
+   <style>
+   .help-inline{
+	   display:none !important;
+   }
+   .parent
+   {
+   	font-size: 16px;
+   	font-weight: bold;
+   	color: red;
+   }
+   .child
+   {
+   	font-size: 14px;
+   	font-weight: bold;
+   	color: blue;
+   }
+   .child1
+   {
+   	font-size: 11px;
+   	color: green;
+   }
+   </style>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="fixed-top">
+   <!-- BEGIN HEADER -->
+   <div class="header navbar navbar-inverse navbar-fixed-top">
+      <!-- BEGIN TOP NAVIGATION BAR -->
+      <div class="navbar-inner">
+         <div class="container-fluid">
+            <!-- BEGIN LOGO -->
+            <a class="brand" href="index.html">
+            REMOTE HEALTH
+            </a>
+            <!-- END LOGO -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <img src="assets/img/menu-toggler.png" alt="" />
+            </a>          
+            <!-- END RESPONSIVE MENU TOGGLER -->            
+            <!-- BEGIN TOP NAVIGATION MENU -->              
+            <ul class="nav pull-right">
+               <!-- BEGIN NOTIFICATION DROPDOWN -->   
+               <li class="dropdown hide" id="header_notification_bar">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="icon-warning-sign"></i>
+                  <span class="badge">6</span>
+                  </a>
+                  <ul class="dropdown-menu extended notification">
+                     <li>
+                        <p>You have 14 new notifications</p>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-success"><i class="icon-plus"></i></span>
+                        New user registered. 
+                        <span class="time">Just now</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-important"><i class="icon-bolt"></i></span>
+                        Server #12 overloaded. 
+                        <span class="time">15 mins</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-warning"><i class="icon-bell"></i></span>
+                        Server #2 not respoding.
+                        <span class="time">22 mins</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-info"><i class="icon-bullhorn"></i></span>
+                        Application error.
+                        <span class="time">40 mins</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-important"><i class="icon-bolt"></i></span>
+                        Database overloaded 68%. 
+                        <span class="time">2 hrs</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="label label-important"><i class="icon-bolt"></i></span>
+                        2 user IP blocked.
+                        <span class="time">5 hrs</span>
+                        </a>
+                     </li>
+                     <li class="external">
+                        <a href="#">See all notifications <i class="m-icon-swapright"></i></a>
+                     </li>
+                  </ul>
+               </li>
+               <!-- END NOTIFICATION DROPDOWN -->
+               <!-- BEGIN INBOX DROPDOWN -->
+               <li class="dropdown hide" id="header_inbox_bar">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="icon-envelope-alt"></i>
+                  <span class="badge">5</span>
+                  </a>
+                  <ul class="dropdown-menu extended inbox">
+                     <li>
+                        <p>You have 12 new messages</p>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="photo"><img src="./assets/img/avatar2.jpg" alt="" /></span>
+                        <span class="subject">
+                        <span class="from">Lisa Wong</span>
+                        <span class="time">Just Now</span>
+                        </span>
+                        <span class="message">
+                        Vivamus sed auctor nibh congue nibh. auctor nibh
+                        auctor nibh...
+                        </span>  
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="photo"><img src="./assets/img/avatar3.jpg" alt="" /></span>
+                        <span class="subject">
+                        <span class="from">Richard Doe</span>
+                        <span class="time">16 mins</span>
+                        </span>
+                        <span class="message">
+                        Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+                        auctor nibh...
+                        </span>  
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="photo"><img src="./assets/img/avatar1.jpg" alt="" /></span>
+                        <span class="subject">
+                        <span class="from">Bob Nilson</span>
+                        <span class="time">2 hrs</span>
+                        </span>
+                        <span class="message">
+                        Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+                        auctor nibh...
+                        </span>  
+                        </a>
+                     </li>
+                     <li class="external">
+                        <a href="#">See all messages <i class="m-icon-swapright"></i></a>
+                     </li>
+                  </ul>
+               </li>
+               <!-- END INBOX DROPDOWN -->
+               <!-- BEGIN TODO DROPDOWN -->
+               <li class="dropdown hide" id="header_task_bar">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="icon-tasks"></i>
+                  <span class="badge">5</span>
+                  </a>
+                  <ul class="dropdown-menu extended tasks">
+                     <li>
+                        <p>You have 12 pending tasks</p>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">New release v1.2</span>
+                        <span class="percent">30%</span>
+                        </span>
+                        <span class="progress progress-success ">
+                        <span style="width: 30%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">Application deployment</span>
+                        <span class="percent">65%</span>
+                        </span>
+                        <span class="progress progress-danger progress-striped active">
+                        <span style="width: 65%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">Mobile app release</span>
+                        <span class="percent">98%</span>
+                        </span>
+                        <span class="progress progress-success">
+                        <span style="width: 98%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">Database migration</span>
+                        <span class="percent">10%</span>
+                        </span>
+                        <span class="progress progress-warning progress-striped">
+                        <span style="width: 10%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">Web server upgrade</span>
+                        <span class="percent">58%</span>
+                        </span>
+                        <span class="progress progress-info">
+                        <span style="width: 58%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <span class="task">
+                        <span class="desc">Mobile development</span>
+                        <span class="percent">85%</span>
+                        </span>
+                        <span class="progress progress-success">
+                        <span style="width: 85%;" class="bar"></span>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="external">
+                        <a href="#">See all tasks <i class="m-icon-swapright"></i></a>
+                     </li>
+                  </ul>
+               </li>
+               <!-- END TODO DROPDOWN -->
+               <!-- BEGIN USER LOGIN DROPDOWN -->
+                <li class="dropdown user">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						
+						<span class="username">&nbsp;</span>
+						<i class="icon-angle-down"></i>
+						</a>
+						<ul class="dropdown-menu">							
+							<li><a href="javascript:void(0);" id="logout_link"><i class="icon-key"></i> Log Out</a></li>
+						</ul>
+					</li>
+               <!-- END USER LOGIN DROPDOWN -->
+            </ul>
+            <!-- END TOP NAVIGATION MENU --> 
+         </div>
+      </div>
+      <!-- END TOP NAVIGATION BAR -->
+   </div>
+   <!-- END HEADER -->
+   <!-- BEGIN CONTAINER -->
+   <div class="page-container row-fluid">
+      <!-- BEGIN SIDEBAR -->
+      <div class="page-sidebar nav-collapse collapse">
+         <!-- BEGIN SIDEBAR MENU -->         
+         
+         <!-- END SIDEBAR MENU -->
+      </div>
+      <!-- END SIDEBAR -->
+      <!-- BEGIN PAGE -->  
+      <div class="page-content">
+         <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         <div id="portlet-config" class="modal hide">
+            <div class="modal-header">
+               <button data-dismiss="modal" class="close" type="button"></button>
+               <h3>portlet Settings</h3>
+            </div>
+            <div class="modal-body">
+               <p>Here will be a configuration form</p>
+            </div>
+         </div>
+         <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         <!-- BEGIN PAGE CONTAINER-->
+         <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->   
+            <div class="row-fluid">
+               <div class="span12">
+                  <!-- BEGIN STYLE CUSTOMIZER -->
+                  <div class="color-panel hidden-phone">
+                     <div class="color-mode-icons icon-color"></div>
+                     <div class="color-mode-icons icon-color-close"></div>
+                     <div class="color-mode">
+                        <p>THEME COLOR</p>
+                        <ul class="inline">
+                           <li class="color-black current color-default" data-style="default"></li>
+                           <li class="color-blue" data-style="blue"></li>
+                           <li class="color-brown" data-style="brown"></li>
+                           <li class="color-purple" data-style="purple"></li>
+                           <li class="color-white color-light" data-style="light"></li>
+                        </ul>
+                        <label class="hidden-phone">
+                        <input type="checkbox" class="header" checked value="" />
+                        <span class="color-mode-label">Fixed Header</span>
+                        </label>                    
+                     </div>
+                  </div>
+                  <!-- END BEGIN STYLE CUSTOMIZER -->     
+                  <h3 class="page-title">
+                     Vendor 
+                     <small> </small>
+                  </h3>
+                  <ul class="breadcrumb">
+                     <li>
+                        <i class="icon-home"></i>
+                        <a href="index.html">Home</a> 
+                        <span class="icon-angle-right"></span>
+                     </li>
+                     <li>
+                        <a href="vendor.html">Vendor</a>
+                        <span class="icon-angle-right"></span> 
+                     </li>
+                     <li><a href="javascript:void(0);">Add Vendor</a></li>
+                  </ul>
+               </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+             
+            <div class="row-fluid">
+               <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box purple">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Vendor Information</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_1" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">First Name<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="text" name="vendor_fname" data-required="1" class="span12 m-wrap" id="vendor_fname"/>
+                              </div>
+                           </div>  
+                           <div class="control-group">
+                              <label class="control-label">Last Name</label>
+                              <div class="controls">
+                                 <input type="text" name="vendor_lname"  class="span12 m-wrap" id="vendor_lname"/>
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Mobile No.<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="text" name="vendor_mobile" data-required="1" class="span12 m-wrap" id="vendor_mobile"/>
+                              </div>
+                           </div>
+                           <div class="control-group">
+                               <label class="control-label">Have Facebook? <span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="have_facebook" value="1" />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="have_facebook" value="0"  />
+                                  No
+                                  </label>  
+                                   
+                               </div>
+                            </div>
+                            <div class="control-group">
+                               <label class="control-label">Have Whatsapp? <span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="have_whatsapp" value="1" />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="have_whatsapp" value="0"  />
+                                  No
+                                  </label>  
+                                   
+                               </div>
+                            </div>
+                            <div class="control-group">
+                               <label class="control-label">Have Smartphone? <span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="have_shartphone" value="1" />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="have_shartphone" value="0"  />
+                                  No
+                                  </label>  
+                                   
+                               </div>
+                            </div>                           
+                           <div class="form-actions">
+                           <input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+           </div>
+           <div class="row-fluid">
+             <div class="span12">
+              	 
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box green">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Vendor Signature</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_2" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+
+                           <div class="control-group">
+                              <label class="control-label">&nbsp;</label>
+                              <div class="controls" id="uploaded_signature">
+                                 
+                              </div>
+                           </div> 
+                           
+                           <div class="control-group">
+                              <label class="control-label">Signature<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="file" name="vendor_sign" id="vendor_sign" data-required="1" class="default" />
+                              </div>
+                           </div>  
+                                                       
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+           <div class="row-fluid">    
+               <div class="span12">
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box blue">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Shop Information</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_3" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Shop Name<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="text" name="shop_name" data-required="1" class="span12 m-wrap" id="shop_name"/>
+                              </div>
+                           </div>  
+
+                           <div class="control-group">
+                              <label class="control-label">Item Description</label>
+                              <div class="controls">
+                                 <textarea name="description" id="description" class="span12 m-wrap" data-required="1"></textarea> 
+                              </div>
+                           </div>
+
+                           <div class="control-group">
+                              <label class="control-label">Shop existance from</label>
+                              <div class="controls">
+                                 <input type="text" name="shop_years"  class="span3 m-wrap" id="shop_years"/> &nbsp;Years
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Address 1<span class="required">*</span></label>
+                              <div class="controls">
+                             	 <textarea name="shop_address1" id="shop_address1" class="span12 m-wrap" data-required="1"></textarea>                                
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Address 2</label>
+                              <div class="controls">
+                             	 <textarea name="shop_address2" id="shop_address2" class="span12 m-wrap" ></textarea>                                
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Open Time</label>
+                              <div class="controls">
+                                 <div class="input-append">
+                                    <input type="text" name="shop_open_time" id="shop_open_time" value="10:30" class="m-wrap small" readonly="" />
+                                    <button class="btn" type="button" id="clockface_2_toggle-btn_start">
+                                    <i class="icon-time"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Closing Time</label>
+                              <div class="controls">
+                                 <div class="input-append">
+                                    <input type="text" name="shop_close_time" id="shop_close_time" value="20:30" class="m-wrap small" readonly="" />
+                                    <button class="btn" type="button" id="clockface_2_toggle-btn">
+                                    <i class="icon-time"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Off Day(s)</label>
+                              <div class="controls">
+                                 <label class="checkbox ">
+                                 <input type="checkbox" name="shop_off_days[]" value="Monday" /> Monday &nbsp;&nbsp;
+                                 </label>
+                                 <label class="checkbox ">
+                                 <input type="checkbox" value="Tuesday" name="shop_off_days[]"/> Tuesday &nbsp; &nbsp;
+                                 </label>
+                                 <label class="checkbox ">
+                                 <input type="checkbox" value="Wednesday" name="shop_off_days[]"/> Wednesday
+                                 </label>
+                                 <label class="checkbox ">
+                                 <input type="checkbox" value="Thursday" name="shop_off_days[]"/> Thursday &nbsp; &nbsp;
+                                 </label>
+                                 <label class="checkbox ">
+                                 <input type="checkbox" value="Friday" name="shop_off_days[]"/> Friday &nbsp; &nbsp;
+                                 </label>
+                                 <label class="checkbox ">
+                                 <input type="checkbox" value="Saturday" name="shop_off_days[]" /> Saturday &nbsp; &nbsp;
+                                 </label>
+                                 <label class="checkbox">
+                                 <input type="checkbox" value="Sunday" name="shop_off_days[]"/> Sunday
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>                           
+            </div>
+                                    
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box grey">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Images Gallery</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_4" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">&nbsp;</label>
+                              <div class="controls" id="photos">
+                              </div>
+                           </div> 
+                           <div class="control-group">
+                              <label class="control-label">Upload Image<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="file" name="shop_image" id="shop_image" data-required="1" class="default" />
+                              </div>
+                           </div>  
+                                                       
+                           <div class="form-actions">
+                           	<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box red">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Uplaod Video</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_5" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Youtube URL<span class="required">*</span></label>
+                              <div class="controls">
+                                  <input type="text" name="video_name" class="span12 m-wrap" id="video_name"/>
+                              </div>
+                           </div>  
+                                                       
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button>
+                              <button type="button" id="delete_video" class="btn red">Delete Video</button>
+                              <span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box purple">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Other Informations</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_6" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="row-fluid">
+                           <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Price<span class="required">*</span></label>
+                               <div class="controls" id="vendor_price_radio_html">
+                                                                   
+                               </div>
+                            </div>   
+                           </div>
+                          <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Pricing Policy<span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="pricing_policy" value="0" />
+                                  Fixed
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="pricing_policy" value="1"  />
+                                  Bargainable
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>   
+                           </div> 
+                           
+                           <div class="row-fluid">
+                           <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Warranty<span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="warranty" value="NA" />
+                                  Not Applicable
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="warranty" value="Y"  />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="warranty" value="N"  />
+                                  No
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>
+                          <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Exchange Facility<span class="required">*</span></label>
+                                <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="exchange" value="NA" />
+                                  Not Applicable
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="exchange" value="Y"  />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="exchange" value="N"  />
+                                  No
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>   
+                           </div> 
+                                      
+                           <div class="row-fluid">
+                           <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Home Delivery Faclity<span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="home_delivery" value="Y"  />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="home_delivery" value="N"  />
+                                  No
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>
+                          <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Parking Facility<span class="required">*</span></label>
+                                <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="parking" value="Y"  />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="parking" value="N"  />
+                                  No
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>   
+                           </div>
+                           
+                         <div class="row-fluid">
+                           <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Washroom Faclity<span class="required">*</span></label>
+                               <div class="controls">
+                                  <label class="radio line">
+                                  <input type="radio" name="washroom" value="Y"  />
+                                  Yes
+                                  </label>
+                                  <label class="radio line">
+                                  <input type="radio" name="washroom" value="N"  />
+                                  No
+                                  </label>                                   
+                               </div>
+                            </div>   
+                           </div>
+                             
+                           </div>
+                                  
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            
+            
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box grey">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Area Information</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_7" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                          <div class="control-group">
+                             <label class="control-label">State<span class="required">*</span></label>
+                             <div class="controls">
+                                <select class="m-wrap span12" name="state_id" id="state_id">
+                                	<option value="">Please Select...</option> 
+                                </select>                                
+                             </div>
+                          </div>
+                          
+                          <div class="control-group">
+                             <label class="control-label">City<span class="required">*</span></label>
+                             <div class="controls">
+                                <select class="m-wrap span12" name="city_id" id="city_id">
+                                	<option value="">Please Select...</option>
+                                </select>
+                             </div>
+                          </div>
+                            
+                            <div class="control-group">
+                             <label class="control-label">Location <span class="required">*</span></label>
+                             <div class="controls">
+                                <select class="m-wrap span12" name="location_id" id="location_id">
+                                	<option value="">Please Select...</option>
+                                </select>
+                             </div>
+                          </div>
+                                                       
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box red">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Product Image</h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_8" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">&nbsp;</label>
+                              <div class="controls" id="productPhotos">
+                                 
+                              </div>
+                           </div> 
+                           <div class="control-group">
+                              <label class="control-label">Upload Image<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="file" name="product_image" id="product_image" data-required="1" class="default" />
+                              </div>
+                           </div> 
+                           <div class="control-group">
+                              <label class="control-label">Product Title<span class="required">*</span></label>
+                              <div class="controls">
+                                 <input type="text" name="product_name"  class="span3 m-wrap" id="product_name"/>
+                              </div>
+                           </div>  
+                           <div class="control-group">
+                              <label class="control-label">Product Price</label>
+                              <div class="controls">
+                                <input type="text" name="product_price"  class="span3 m-wrap" id="product_price"/>
+                              </div>
+                           </div>
+                           <div class="control-group">
+                              <label class="control-label">Product ID</label>
+                              <div class="controls">
+                                <input type="text" name="product_id"  class="span3 m-wrap" id="product_id"/>
+                              </div>
+                           </div>              
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            <div class="row-fluid">
+             <div class="span12">
+              
+                  <!-- BEGIN VALIDATION STATES-->
+                  <div class="portlet box yellow">
+                     <div class="portlet-title">
+                        <h4><i class="icon-reorder"></i>Category </h4>
+                        <div class="tools">
+                           <a href="javascript:;" class="collapse"></a>
+                          <!-- <a href="#portlet-config" data-toggle="modal" class="config"></a>-->
+                           <a href="javascript:;" class="reload"></a>
+                          <!-- <a href="javascript:;" class="remove"></a>-->
+                        </div>
+                     </div>
+                     <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" id="form_sample_9" class="form-horizontal">
+                           <div class="alert alert-error hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="err">You have some form errors. Please check below.</font>
+                           </div>
+                           <div class="alert alert-success hide">
+                              <button class="close" data-dismiss="alert"></button>
+                              <font id="succ">Your form validation is successful!</font>
+                           </div>
+                            <div class="row-fluid">
+                           <div class="span6">
+                           <div class="control-group">
+                               <label class="control-label">Select Categories<span class="required">*</span></label>
+                               <div class="controls" id="category_html">
+                                                                                               
+                               </div>
+                            </div>   
+                           </div>
+                             <div class="span6">
+                            <div class="control-group">
+                              <label class="control-label">Selected Categories<span class="required">*</span></label>
+                              <div class="controls">
+                             	 <textarea name="selected_cat" id="selected_cat" class="span12 m-wrap" readonly style="height:200px"></textarea>                                
+                              </div>
+                           </div>
+                             </div>
+                           </div>                 
+                           <div class="form-actions">
+                           		<input type="hidden" name="edit_id" id="edit_id" class="edit_id" value=""/>
+                           		<input type="hidden" name="func" id="func" class="func" value=""/>
+                              <button type="submit" class="btn purple">Submit</button><span style="color:red; display:none" class="plz_wait">&nbsp; &nbsp;Please Wait....</span>
+                              <!--<button type="button" class="btn">Cancel</button>-->
+                           </div>
+                        </form>
+                        <!-- END FORM-->
+                     </div>
+                  </div>
+                  <!-- END VALIDATION STATES-->
+                  
+               </div>
+            </div>
+            
+            <!-- END PAGE CONTENT-->         
+         </div>
+         <!-- END PAGE CONTAINER-->
+      </div>
+      <!-- END PAGE -->  
+   </div>
+   <!-- END CONTAINER -->
+   <!-- BEGIN FOOTER -->
+   <div class="footer">
+       2020 &copy; REMOTE HEALTH Admin.
+      <div class="span pull-right">
+         <span class="go-top"><i class="icon-angle-up"></i></span>
+      </div>
+   </div>
+   <!-- END FOOTER -->
+   <!-- BEGIN JAVASCRIPTS -->    
+   <script src="assets/js/config.js"></script>
+   <!-- Load javascripts at bottom, this will reduce page load time -->
+   <script src="assets/js/jquery-1.8.3.min.js"></script>    
+   <script src="assets/breakpoints/breakpoints.js"></script>      
+   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   <script src="assets/js/jquery.blockui.js"></script>
+   <script src="assets/js/jquery.cookie.js"></script>
+   <!-- ie8 fixes -->
+   <!--[if lt IE 9]>
+   <script src="assets/js/excanvas.js"></script>
+   <script src="assets/js/respond.js"></script>
+   <![endif]-->
+   <script type="text/javascript" src="assets/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>
+   <script type="text/javascript" src="assets/uniform/jquery.uniform.min.js"></script>
+   <script type="text/javascript" src="assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
+   <script type="text/javascript" src="assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+   <script type="text/javascript" src="assets/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+   <script type="text/javascript" src="assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+   <script type="text/javascript" src="assets/clockface/js/clockface.js"></script>
+   <script type="text/javascript" src="assets/bootstrap-daterangepicker/date.js"></script>
+   <script type="text/javascript" src="assets/bootstrap-daterangepicker/daterangepicker.js"></script> 
+   <script type="text/javascript" src="assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>  
+   <script type="text/javascript" src="assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+   <script type="text/javascript" src="assets/jquery-validation/dist/jquery.validate.min.js"></script>
+   <script type="text/javascript" src="assets/jquery-validation/dist/additional-methods.min.js"></script>
+   <script src="assets/js/app.js"></script>     
+   <script>
+   		var catArray = [];
+      jQuery(document).ready(function() {  
+	  
+	  $(".username").html(window.sessionStorage.getItem("admin_name"));
+	  
+	  $(".btn").prop( "disabled", true ); 
+         // initiate layout and plugins
+		var url = window.location.href;
+		var name ="id";
+		var value ="";
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+		var results = regex.exec(url);
+		if (!results) value = null;
+		else if (!results[2]) value = '';
+		else value = decodeURIComponent(results[2].replace(/\+/g, " "));
+		if(value)
+		{
+			value = value.split("_");
+			var currentPage = value[1];
+			var startingPoint = value[2];
+			value = value[0];	
+		}
+		
+
+		if(!value ) 
+		{
+			checkPermission(window.sessionStorage.getItem("admin_id"), 8, 'add'); // admin_id, module_id, role_type
+
+			$(".page-title small").html('Add');
+			$("#delete_video").remove();
+
+			$(".page-sidebar").load("nav.html",function(response, status){
+				$(".page-sidebar li").removeClass("active");
+				if($(".page-sidebar li span").hasClass("arrow"))
+				{
+					$(".page-sidebar li span").removeClass("open");
+				}
+				$("#vendor").addClass("active").addClass("open");
+				if($("#vendor span").hasClass("arrow"))
+				{
+					$("#vendor span").addClass("open");	
+				}
+				$("#add_vendor").addClass("active");	
+				
+				$.post( api_url + "/sd_state.php", { func:"active_list"})
+					.done(function(data){
+						//alert(data);
+						data = JSON.parse(data);
+						for(var key in data.data)
+						{
+							$("#state_id").append(new Option(data.data[key]['state_name'], data.data[key]['state_id']));
+						}
+						$.post( api_url + "/sd_category.php", { func:"active_list"})
+							.done(function(data){
+								data = JSON.parse(data);
+								console.log(data)
+									var category_html="";
+									for(var key in data.data)
+										{
+											category_html += '<label class="checkbox line parent">';
+											if(data.data[key].child.length == 0)
+				                            category_html += '<input type="checkbox" name="category_id[]" value="'+ data.data[key].category_id+'"  />';
+                                  			category_html += data.data[key].category_name;
+                                  			category_html += '</label>      ';
+											catArray[data.data[key].category_id] = data.data[key].category_name;
+											
+											for(var key1 in data.data[key].child)
+											{
+												category_html += '<label class="checkbox line child">';
+												if(data.data[key].child[key1].child.length == 0)
+												{
+												category_html += ' -- <input type="checkbox" name="category_id[]" value="'+ data.data[key].child[key1].category_id+'"  />';
+												category_html +=  data.data[key].child[key1].category_name;
+												
+												catArray[data.data[key].child[key1].category_id] = data.data[key].child[key1].category_name;
+												}
+												else
+												{
+													category_html +=  " -- "+data.data[key].child[key1].category_name;
+												}
+												category_html += '</label>      ';
+												
+												for(var key2 in data.data[key].child[key1].child)
+												{
+													category_html += '<label class="checkbox line child1">';
+													
+													category_html += ' ---- <input type="checkbox" name="category_id[]" value="'+ data.data[key].child[key1].child[key2].category_id+'"  />';
+													category_html +=  data.data[key].child[key1].child[key2].category_name;
+													
+													category_html += '</label>      ';
+													
+													catArray[data.data[key].child[key1].child[key2].category_id] = data.data[key].child[key1].child[key2].category_name;
+												}
+											}											
+										}
+								$("#category_html").html(category_html).find("input[name='category_id[]']").click(function(){
+									
+									var catArrayText = [];
+									$.each($("input[name='category_id[]']"), function(){            
+										if($(this).prop("checked") == true) catArrayText.push(catArray[$(this).val()]);
+									});
+									$("#selected_cat").val(catArrayText.join(", "));
+									//alert($(this).val() +"=="+ catArray[$(this).val()]);
+								});
+									
+								$.post( api_url + "/sd_vendor_price.php", { func:"active_list"})
+									.done(function(data){
+										data = JSON.parse(data);
+										var price_html ="";
+										for(var key in data.data)
+										{
+											price_html += '<label class="radio line">';
+											price_html += '  <input type="radio" name="price_id" value="'+data.data[key].id+'" />';
+											price_html += data.data[key].price_title;
+											price_html += '  </label>';
+										}
+										$("#vendor_price_radio_html").html(price_html);
+										
+										$(".btn").prop( "disabled", false );
+										App.setPage("vendor_form_validation");
+										App.init();		
+									})
+								
+							});					
+						
+					});				
+			});
+		}
+		else 
+		{	
+			checkPermission(window.sessionStorage.getItem("admin_id"), 8, 'edit'); // admin_id, module_id, role_type
+			$(".page-title small").html('Edit');		
+			$(".edit_id").val(value);
+			$(".page-sidebar").load("nav.html",function(response, status){
+			$(".page-sidebar li").removeClass("active");
+			if($(".page-sidebar li span").hasClass("arrow"))
+			{
+				$(".page-sidebar li span").removeClass("open");
+			}
+			$("#vendor").addClass("active").addClass("open");
+			if($("#vendor span").hasClass("arrow"))
+			{
+				$("#vendor span").addClass("open");	
+			}
+			$("#add_vendor").addClass("active");
+			
+			$.post( api_url + "/sd_vendors.php", { func:"get_data",id:value})
+				.done(function(data){
+					//alert(data);
+					data = JSON.parse(data);
+               console.log(data);
+					$("#vendor_fname").val(data.data.vendor_fname);
+					$("#vendor_lname").val(data.data.vendor_lname);
+					$("#vendor_mobile").val(data.data.vendor_mobile);
+
+               $("input[name=have_facebook][value=" + data.data.have_facebook + "]").prop('checked', true);
+               $("input[name=have_whatsapp][value=" + data.data.have_whatsapp + "]").prop('checked', true);
+               $("input[name=have_shartphone][value=" + data.data.have_shartphone + "]").prop('checked', true);
+
+               if(data.data.vendor_sign)
+               $("#uploaded_signature").html('<img src="https://s3.ap-southeast-1.amazonaws.com/sd-prod-101-signature/'+data.data.vendor_sign+'" width="200">');
+
+					$("#shop_name").val(data.data.shop_name);
+					$("#description").val(data.data.description);
+					$("#shop_years").val(data.data.shop_years);
+					$("#shop_address1").val(data.data.shop_address1);
+					$("#shop_address2").val(data.data.shop_address2);
+					$("#shop_open_time").val(data.data.shop_open_time);
+					$("#shop_close_time").val(data.data.shop_close_time);
+					if(data.data.shop_off_days != 'N/A')
+					{
+						var shop_off_days = data.data.shop_off_days.split(",");
+						for(var key in shop_off_days)
+						{
+							$("input[name='shop_off_days[]'][value=" + shop_off_days[key] + "]").prop('checked', true);
+						}
+					}
+               var photoHtml = '<div class="row-fluid">';
+               for(var key in data.data.photos)
+               {
+                  photoHtml += '<div class="span3" style="min-height: 200px; border: 1px solid; padding: 5px; margin: 5px;"><img src="https://s3.ap-southeast-1.amazonaws.com/sd-prod-101-img/'+data.data.photos[key].photo_name+'" style="width:200px; padding:5px;">';
+				  photoHtml += ' <a href="javascript:void(0)" class="btn mini red img_dlt_btn" id="img_dlt_'+data.data.photos[key].id+'"><i class="icon-trash"></i>Delete</a></div>';
+               }
+			   photoHtml += '</div>';
+               $("#photos").html(photoHtml);
+
+
+               $("#video_name").val(data.data.video_name);
+               if(!data.data.video_name) $("#delete_video").remove();
+
+               var price_id = data.data.price_id;               
+               $("input[name=warranty][value=" + data.data.warranty + "]").prop('checked', true);
+               $("input[name=exchange][value=" + data.data.exchange + "]").prop('checked', true);
+               $("input[name=home_delivery][value=" + data.data.home_delivery + "]").prop('checked', true);
+               $("input[name=parking][value=" + data.data.parking + "]").prop('checked', true);
+               $("input[name=washroom][value=" + data.data.washroom + "]").prop('checked', true);
+               $("input[name=pricing_policy][value=" + data.data.pricing_policy + "]").prop('checked', true);
+
+               var state_id = data.data.state_id;
+
+               for(var key in data.data.city_list)
+               {
+                  $("#city_id").append(new Option(data.data.city_list[key]['city_name'], data.data.city_list[key]['city_id']));
+               }  
+               $("#city_id").val(data.data.city_id);
+
+               for(var key in data.data.location_list)
+               {
+                  $("#location_id").append(new Option(data.data.location_list[key]['location_name'], data.data.location_list[key]['location_id']));
+               }  
+               $("#location_id").val(data.data.location_id);
+
+                var productPhotoHtml = '<div class="row-fluid">';
+               for(var key in data.data.product_photos)
+               {
+                  productPhotoHtml += '<div class="span3" style="min-height: 200px; border: 1px solid; padding: 5px; margin: 5px;">';
+				  productPhotoHtml += '<img src="https://s3.ap-southeast-1.amazonaws.com/sd-prod-101-img/'+data.data.product_photos[key].product_image+'" style="width:100px; padding:5px;">';
+				  productPhotoHtml += '<br/>'+data.data.product_photos[key].product_name+' &nbsp;<a href="javascript:void(0)" class="btn mini red prd_dlt_btn" id="prd_dlt_'+data.data.product_photos[key].product_image_id+'"><i class="icon-trash"></i></a><br/>(Rs.'+ data.data.product_photos[key].product_price+'/-)<br/>ID: '+ data.data.product_photos[key].product_id+'</div>'
+               }
+			   productPhotoHtml+= '</div>';
+               $("#productPhotos").html(productPhotoHtml);
+
+				var selected_cat_list = data.data.product_category;
+				
+					$.post( api_url + "/sd_state.php", { func:"active_list"})
+					.done(function(data){
+						//alert(data);
+						data = JSON.parse(data);
+						for(var key in data.data)
+						{
+							$("#state_id").append(new Option(data.data[key]['state_name'], data.data[key]['state_id']));
+						}
+
+                  $("#state_id").val(state_id);
+
+						$.post( api_url + "/sd_category.php", { func:"active_list"})
+							.done(function(data){
+								data = JSON.parse(data);
+								console.log(data)
+									var category_html="";
+									for(var key in data.data)
+										{
+											category_html += '<label class="checkbox line parent" >';
+											if(data.data[key].child.length == 0)
+				                            category_html += '<input type="checkbox" name="category_id[]" value="'+ data.data[key].category_id+'"  />';
+                                  			category_html += data.data[key].category_name;
+                                  			category_html += '</label>      ';
+											
+											catArray[data.data[key].category_id] = data.data[key].category_name;
+											
+											for(var key1 in data.data[key].child)
+											{
+												category_html += '<label class="checkbox line child">';
+												if(data.data[key].child[key1].child.length == 0)
+												{
+												category_html += ' -- <input type="checkbox" name="category_id[]" value="'+ data.data[key].child[key1].category_id+'"  />';
+												category_html +=  data.data[key].child[key1].category_name;
+												
+												catArray[data.data[key].child[key1].category_id] = data.data[key].child[key1].category_name;
+												}
+												else
+												{
+													category_html +=  " -- "+data.data[key].child[key1].category_name;
+												}
+												category_html += '</label>      ';
+												
+												for(var key2 in data.data[key].child[key1].child)
+												{
+													category_html += '<label class="checkbox line child1">';
+													
+													category_html += ' ---- <input type="checkbox" name="category_id[]" value="'+ data.data[key].child[key1].child[key2].category_id+'"  />';
+													category_html +=  data.data[key].child[key1].child[key2].category_name;
+													
+													category_html += '</label>      ';
+													
+													catArray[data.data[key].child[key1].child[key2].category_id] = data.data[key].child[key1].child[key2].category_name;
+												}
+											}											
+										}
+								$("#category_html").html(category_html).find("input[name='category_id[]']").click(function(){
+									
+									var catArrayText = [];
+									$.each($("input[name='category_id[]']"), function(){            
+										if($(this).prop("checked") == true) catArrayText.push(catArray[$(this).val()]);
+									});
+									$("#selected_cat").val(catArrayText.join(", "));
+									//alert($(this).val() +"=="+ catArray[$(this).val()]);
+								});
+								
+								var catArrayText = [];
+								for(var catkey in selected_cat_list)
+								{		 						   
+								   $("input[name='category_id[]'][value=" + selected_cat_list[catkey] + "]").prop('checked', true); 
+								   if(catArray[selected_cat_list[catkey]])
+								   catArrayText.push(catArray[selected_cat_list[catkey]]);  
+								}
+								$("#selected_cat").val(catArrayText.join(", "));
+								
+								$.post( api_url + "/sd_vendor_price.php", { func:"active_list"})
+									.done(function(data){
+										data = JSON.parse(data);
+										var price_html ="";
+										for(var key in data.data)
+										{
+											price_html += '<label class="radio line">';
+											price_html += '  <input type="radio" name="price_id" value="'+data.data[key].id+'" />';
+											price_html += data.data[key].price_title;
+											price_html += '  </label>';
+										}
+										$("#vendor_price_radio_html").html(price_html);
+										$("input[name=price_id][value=" + price_id  + "]").prop('checked', true);
+										$(".btn").prop( "disabled", false );
+										App.setPage("vendor_form_validation");
+										App.init();		
+									})
+								
+							});					
+						
+					});
+			});
+
+				})
+
+			
+		}
+      });
+	  
+jQuery(document).on('change', '#state_id', function(e){
+	var state_id = $(this).val();
+	$.post( api_url + "/sd_city.php", { func:"active_list_by_state", id:state_id})
+	 .done(function(data){
+		 
+		 data  = JSON.parse(data);
+		 $('#city_id').find('option:not(:first)').remove();
+
+		 for(var key in data.data)
+		{
+			$("#city_id").append(new Option(data.data[key]['city_name'], data.data[key]['city_id']));
+		}
+	})
+});
+
+jQuery(document).on('change', '#city_id', function(e){
+	var city_id = $(this).val();
+	$.post( api_url + "/sd_location.php", { func:"active_list_by_city", id:city_id})
+	 .done(function(data){
+		// alert(data);
+		 data  = JSON.parse(data);
+		 $('#location_id').find('option:not(:first)').remove();
+
+		 for(var key in data.data)
+		{
+			$("#location_id").append(new Option(data.data[key]['location_name'], data.data[key]['location_id']));
+		}
+	})
+});
+
+jQuery(document).on('click', '.img_dlt_btn', function(e){
+	var r =confirm("Are you sure to delete!");
+	if (r == true) {
+		var id = $(this).attr('id').split("_");
+		id= id[2];
+		//alert(id);
+		$.post( api_url + "/sd_vendors.php", { func:"img_delete", id:id, admin_id: window.sessionStorage.getItem("admin_id") })
+		.done(function(data){
+		// alert(data);
+		data  = JSON.parse(data);
+		var photoHtml = '<div class="row-fluid">';
+		for(var key in data.data.photos)
+		{
+		  photoHtml += '<div class="span3" style="min-height: 200px; border: 1px solid; padding: 5px; margin: 5px;"><img src="https://s3.ap-southeast-1.amazonaws.com/sd-prod-101-img/'+data.data.photos[key].photo_name+'" style="width:200px; padding:5px;">';
+		  photoHtml += ' <a href="javascript:void(0)" class="btn mini red img_dlt_btn" id="img_dlt_'+data.data.photos[key].id+'"><i class="icon-trash"></i>Delete</a></div>';
+		}
+		photoHtml += '</div>';
+		$("#photos").html(photoHtml);
+		});
+	}
+});
+jQuery(document).on('click', '.prd_dlt_btn', function(e){
+	var r =confirm("Are you sure to delete!");
+	if (r == true) {
+		var id = $(this).attr('id').split("_");
+		id= id[2];
+		//alert(id);
+		$.post( api_url + "/sd_vendors.php", { func:"prd_delete", id:id, admin_id: window.sessionStorage.getItem("admin_id") })
+		.done(function(data){
+		// alert(data);
+		 data  = JSON.parse(data);
+		 
+		var productPhotoHtml = '<div class="row-fluid">';
+		for(var key in data.data.product_photos)
+		{
+		  productPhotoHtml += '<div class="span3" style="min-height: 200px; border: 1px solid; padding: 5px; margin: 5px;">';
+		  productPhotoHtml += '<img src="https://s3.ap-southeast-1.amazonaws.com/sd-prod-101-img/'+data.data.product_photos[key].product_image+'" style="width:100px; padding:5px;">';
+		  productPhotoHtml += '<br/>'+data.data.product_photos[key].product_name+' &nbsp;<a href="javascript:void(0)" class="btn mini red prd_dlt_btn" id="prd_dlt_'+data.data.product_photos[key].product_image_id+'"><i class="icon-trash"></i></a><br/>(Rs.'+ data.data.product_photos[key].product_price+'/-)<br/>ID: '+ data.data.product_photos[key].product_id+'</div>'
+		}
+		productPhotoHtml+= '</div>';
+		$("#productPhotos").html(productPhotoHtml);
+		 
+		});
+	}
+});
+jQuery(document).on('click', '#delete_video', function(e){
+	var r =confirm("Are you sure to delete the video!");
+	if (r == true) {
+		$(".btn").prop( "disabled", true );
+		$(".plz_wait").show();
+
+		var form5 = $('#form_sample_5');
+        var error5 = $('.alert-error', form5);
+        var success5 = $('.alert-success', form5);
+
+
+		$.post( api_url + "/sd_vendors.php", { func:"video_delete", id:$(".edit_id").val(), admin_id: window.sessionStorage.getItem("admin_id") })
+			.done(function(data){
+				//alert(data);
+			 	data  = JSON.parse(data);
+			 	if(data.success)
+			 	{
+			 		$("#form_sample_5 #succ").html(data.msg);					
+					success5.show();
+					error5.hide();
+					$(".btn").prop( "disabled", false );
+					$(".plz_wait").hide();
+					$("#video_name").val("");
+					$("#delete_video").hide();
+			 	}
+			 	else
+			 	{
+			 		$("#form_sample_5 #err").html(data.msg);					
+					success5.hide();
+					error5.show();
+					$(".btn").prop( "disabled", false );
+					$(".plz_wait").hide();
+			 	}
+		})
+	}
+});
+</script>
+   <!-- END JAVASCRIPTS -->   
+</body>
+<!-- END BODY -->
+</html>
